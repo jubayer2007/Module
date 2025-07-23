@@ -159,14 +159,10 @@ nav a{
     background-color: #FF900E;
 }
 
-.for-line{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
 .features-title{
+    border-left: 5px solid #FF900E;
     margin-bottom: 25px;
+    padding-left: 20px;
     font-size: 45px;
     font-weight: 700;
 }
@@ -176,11 +172,29 @@ nav a{
 }
 
 .experience{
-    height: 200px;
-    width: 350px;
+    text-align: center;
+    border: 0px solid;
+    border-radius: 10px;
     background-color: #FF900E;
-    position: relative;
+    width: 300px;
+    padding:30px 0px;
+    margin-top: -100px;
+    margin-left: -100px;
 }
+
+.year{
+    font-size: 65px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+.expert{
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
 
 /* facts-page-container style */
 
@@ -188,11 +202,11 @@ nav a{
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 25px;
-    margin-left: 250px;
+    margin-left: 150px;
 }
 
 .facts-description{
-    margin-left: 250px;
+    margin-left: 150px;
 }
 
 .facts{
