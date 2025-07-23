@@ -84,19 +84,17 @@ nav a{
 .introduction{
     margin: 50px auto;
     width: 850px;
-    /* border: 1px solid black; */
 }
 
 .introduction-section{
     text-align: center;
     justify-items: center;
-    /* background-color: #FF900E; */
 }
 
 .head-image img{
     max-width: 1000px;
     margin: 50px auto;
-    border: 1px solid tomato;
+    
 }
 
 
